@@ -86,7 +86,7 @@ public class player : MonoBehaviour
     //觸發事件-進入:兩個物件其中1個要勾選is Trigger
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.tag == "金條")
+        if (collision.tag == "金錢")
         {
             coin++;
             aud.PlayOneShot(soundEat);
